@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  background: #e8a0a3;
+  font-size: 12px;
+}
+nav a {
+  padding: 10px;
+  border-right: 1px solid #f5c7c9;
+  color: white;
+  text-decoration: none;
+}
+nav a:first-child {
+  color: #c94343;
+}
+form {
+  margin-left: auto;
+  padding: 3px 15px;
+  display: flex;
+  gap: 5px;
+}
+input {
+  width: 195px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+button {
+  padding: 4px 8px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+header {
+  background: white;
+  padding: 15px;
+  text-align: center;
+}
+h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 12px;
+  border-radius: 50%;
+  background: #e8a0a3;
+  font-size: 25px;
+  font-weight: normal;
+}
+h1 span {
+  color: white;
+}
+.banner {
+  display: block;
+  width: 100%;
+  margin-top: 7px;
+}
+h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 15px 0;
+}
+.san-pham {
+  display: flex;
+  gap: 8px;
+}
+article {
+  width: 25%;
+  padding: 12px 5px 18px;
+  border: 1px solid #ccc;
+  background: white;
+  text-align: center;
+  font-size: 13px;
+}
+article img {
+  width: 130px;
+  max-width: 100%;
+}
+article p {
+  margin: 10px 0 7px;
+}
+strong {
+  color: #922626;
+}
+del {
+  font-size: 10px;
+}
+footer {
+  margin-top: 130px;
+  padding: 14px;
+  background: #e8a0a3;
+  text-align: center;
+  font-size: 12px;
+}
